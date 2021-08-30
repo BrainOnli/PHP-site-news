@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+body {
+	justify-content: center;
+	background: radial-gradient(circle, #f9e497, #ffb60f);
+	font-family: 'Raleway', sans-serif;
+	margin:  0;
+}
+label {
+	display: flex;
+}
+input {
+	width: 600px;
+	height: 60px;
+	border: 1px solid transparent;
+	border-radius: 30px;
+	outline: none;
+}
+a {
+	position: absolute;
+	text-decoration: none;
+	color: #ffffff;
+	padding-top: 15px;
+}
+.headerMenu {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 30px;
+	background: gray;
+
+}
+.headerMenu h4 {
+	display: flex;
+	justify-content: center;
+	height: 20px;
+	width: 100px;
+	margin-right: 40px;
+    font-size: 30px;
+    text-decoration: none !important;
+    color: #ffffff !important;
+    background: linear-gradient(45deg, #d59a42, #c69c59);
+    border: 2px solid transparent;
+    padding: 5px 30px;
+    border-radius: 15px;
+    
+}
+.headerMenu a {
+	position: absolute;
+	text-decoration: none;
+	color: #ffffff;
+	padding-top: 0 !important;
+}
+.form_center {
+	display: flex;
+    margin-top: 25%;
+    justify-content: center;
+}
+.form_center .login {
+	margin-bottom: 80px;
+	height: 40px;
+}
+label {
+	font-size: 25px;
+	font-family: 'Raleway', sans-serif;
+}
+
+button[name="button"] {
+	width: 100%;
+    height: 60px;
+    border-radius: 40px;
+    margin-top: 30px;
+    border: 1px solid transparent;
+    background: radial-gradient( #4bf6d6, #ffb60f);
+
+}
+.post_page {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+	background: radial-gradient(circle, #f9e497, #ffb60f);
+}
+.posts {
+	   display: flex;
+    flex-wrap: wrap;
+}
+.posts_block {
+	display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 5% 0 5%;
+}
+.post {
+	width: 33%;
+    margin-right: 0.2%;
+    margin-bottom: 5%;
+    border: 1px solid;
+    text-align: center;
+}
+.post_image {
+	padding-top: 40px;
+}
+.post_date {
+	float: right;
+	white-space: break-spaces;
+}
+.post_edit {
+	    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+.post h1 {
+	font-size: 50px;
+	font-family: 'Raleway', sans-serif;
+}
+.post img {
+	width: 300px; 
+	height: 400px;
+}
+
+.post p {
+	width: 50%;
+	padding-left: 25%;
+}
+.post h4 {
+	float: right;
+	padding-right: 25px;
+}
+.form_full form {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 20px 0 20px;
+}
+.post_id {
+	float: left;
+}
+.edit {
+	    width: 33%;
+    margin-right: 0.2%;
+    margin-bottom: 5%;
+    border: 1px solid;
+    text-align: center;
+}
+.edit_image img {
+	    width: 33%;
+    height: 330px;
+}
+.edit_image label {
+	display: block;
+	padding: 40px 0px 40px 40px;
+}
+.edit_discription p {
+	height: 200px;
+}
+
+
